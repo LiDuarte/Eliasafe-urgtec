@@ -1,4 +1,5 @@
-      <a href="<?= base_url("funcionarios"); ?>"> Gerenciar Funcionários</a>
+      <h1>Oiii</h1>
+    <a href="<?= base_url("funcionarios"); ?>"> Gerenciar Funcionários</a>
        <div class="col-12">
           <h4 class="text-<?php echo isset(session()->alert) ? session()->alert : null;  ?> text-center"><strong><?php echo isset(session()->msg) ? session()->msg : null ?></strong></h4>
         </div>
