@@ -17,6 +17,4 @@
     </div>
     <div class="mb-6">
         <h1><?php echo $titulo; ?> Urgtec</h1>
-        <div class-"mb-12">
-            <h3 class="text-center"><strong class=" text-success"><?php echo $msg; ?></strong></h3>
-        </div>
+  

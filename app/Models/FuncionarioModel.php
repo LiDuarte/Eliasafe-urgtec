@@ -18,4 +18,40 @@ class FuncionarioModel extends Model{
     protected $returnType = "object";
     protected $allowedFields  = ["nome","email","sexo","data_nascimento","departamento","status"];
 
+    protected $validationRules = [
+        "nome" => "required|min_length[3]",
+        "email" => "required|valid_email|is_unique[funcionario.email]",
+        "data_nascimento" => "required|min_length[10]",
+        "departamento" => "required|alpha_numeric",
+        "sexo" => "required|alpha",
+        "status" => "required|numeric", 
+    ];
+    protected $validationMessages = [
+        "nome" => [
+            'required' => "O Nome é obrigatório",
+            'min_length' => "O nome deve ter no mínimo 3 caracteres",
+        ],
+
+        "email" => [
+            "required" => "O Email é obrigatório",
+            "valid_email" => "Já existe um funcionário cadastrado com este Email",
+        ],
+         "data_nascimento" => [
+            "required" => "A Data de Nascimento é obrigatório",
+            "min_length" => "A data de Nascimento deve conter pelo menos 10 caracteres"
+        ],
+        "sexo" => [
+            "required" => "Selecione o Sexo do Funcionário",
+            "alplha" => "Sexo só pode ser alfanuméricos",
+        ],
+        "departamento" => [
+            "required" => "O sexo é obrigatório",
+            "alpha" => "Sexo, Só é permitido alfanuméricos"
+        ],
+        "status" => [
+            "required" => "Selecione o Status do Funcionário",
+            "numeric" => "Funcionário só pode ser Númerico"
+        ]
+    ];
+
 }

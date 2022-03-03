@@ -11,3 +11,269 @@ Main connection [MySQLi]: Unknown database 'urgtec'
 #7 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2022-03-03 06:13:52 --> Array to string conversion
+#0 C:\wamp64\www\urgtec\app\Views\template\cadastroFuncionario.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\u...', 3, Array)
+#1 C:\wamp64\www\urgtec\system\View\View.php(210): include('C:\\wamp64\\www\\u...')
+#2 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('template/cadast...', Array, true)
+#4 C:\wamp64\www\urgtec\app\Views\urgtec.php(2): view('template/cadast...')
+#5 C:\wamp64\www\urgtec\system\View\View.php(210): include('C:\\wamp64\\www\\u...')
+#6 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('urgtec', Array, true)
+#8 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(38): view('urgtec', Array)
+#9 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#10 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#11 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-03 06:30:19 --> Call to undefined function set_value()
+#0 C:\wamp64\www\urgtec\system\View\View.php(210): include()
+#1 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('template/cadast...', Array, true)
+#3 C:\wamp64\www\urgtec\app\Views\urgtec.php(2): view('template/cadast...')
+#4 C:\wamp64\www\urgtec\system\View\View.php(210): include('C:\\wamp64\\www\\u...')
+#5 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('urgtec', Array, true)
+#7 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(38): view('urgtec', Array)
+#8 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#9 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#10 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-03 06:30:29 --> Call to undefined function set_value()
+#0 C:\wamp64\www\urgtec\system\View\View.php(210): include()
+#1 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('template/cadast...', Array, true)
+#3 C:\wamp64\www\urgtec\app\Views\urgtec.php(2): view('template/cadast...')
+#4 C:\wamp64\www\urgtec\system\View\View.php(210): include('C:\\wamp64\\www\\u...')
+#5 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('urgtec', Array, true)
+#7 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(38): view('urgtec', Array)
+#8 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#9 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#10 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-03 06:36:47 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\urgtec\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\urgtec\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(33): redirect('http://localhos...')
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#4 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#5 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-03 07:31:35 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\urgtec\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(33): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#4 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-03 07:31:56 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\urgtec\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(33): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#4 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-03 07:32:26 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\urgtec\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(33): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#4 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-03 07:32:33 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\urgtec\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(33): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#4 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-03 08:01:09 --> Undefined variable: config
+#0 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 33, Array)
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:02:10 --> Undefined variable: session
+#0 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 39, Array)
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:02:42 --> Undefined variable: config
+#0 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 33, Array)
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:03:07 --> Undefined variable: session
+#0 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 40, Array)
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:03:23 --> Undefined variable: session
+#0 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 40, Array)
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:03:29 --> Undefined variable: session
+#0 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 40, Array)
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:05:08 --> Call to undefined method App\Controllers\Urgtec::printSession()
+#0 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 08:06:21 --> Call to undefined method App\Controllers\Urgtec::printSession()
+#0 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 08:07:18 --> Undefined variable: session
+#0 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 42, Array)
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:07:33 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\wamp64\www\urgtec\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\u...')
+#1 C:\wamp64\www\urgtec\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\urgtec\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\urgtec\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 08:08:31 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+#0 C:\wamp64\www\urgtec\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\u...')
+#1 C:\wamp64\www\urgtec\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\urgtec\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\urgtec\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 08:13:48 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\wamp64\\www\\u...', 9, Array)
+#1 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(9): session_destroy()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#4 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-03 08:22:33 --> syntax error, unexpected ''erros'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\wamp64\www\urgtec\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\u...')
+#1 C:\wamp64\www\urgtec\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\urgtec\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\urgtec\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 08:24:13 --> Undefined variable: session
+#0 C:\wamp64\www\urgtec\app\Views\template\cadastroFuncionario.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 8, Array)
+#1 C:\wamp64\www\urgtec\system\View\View.php(210): include('C:\\wamp64\\www\\u...')
+#2 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('template/cadast...', Array, true)
+#4 C:\wamp64\www\urgtec\app\Views\urgtec.php(2): view('template/cadast...')
+#5 C:\wamp64\www\urgtec\system\View\View.php(210): include('C:\\wamp64\\www\\u...')
+#6 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('urgtec', Array, true)
+#8 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(62): view('urgtec', Array)
+#9 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#10 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#11 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-03 08:24:51 --> Undefined variable: session
+#0 C:\wamp64\www\urgtec\app\Views\template\cadastroFuncionario.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 8, Array)
+#1 C:\wamp64\www\urgtec\system\View\View.php(210): include('C:\\wamp64\\www\\u...')
+#2 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('template/cadast...', Array, true)
+#4 C:\wamp64\www\urgtec\app\Views\urgtec.php(2): view('template/cadast...')
+#5 C:\wamp64\www\urgtec\system\View\View.php(210): include('C:\\wamp64\\www\\u...')
+#6 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('urgtec', Array, true)
+#8 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(62): view('urgtec', Array)
+#9 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#10 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#11 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-03 08:37:46 --> syntax error, unexpected ';', expecting ')'
+#0 C:\wamp64\www\urgtec\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\u...')
+#1 C:\wamp64\www\urgtec\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\urgtec\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\urgtec\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 08:48:27 --> Undefined variable: Aline
+#0 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 35, Array)
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 09:01:26 --> Undefined variable: msg
+#0 C:\wamp64\www\urgtec\app\Views\estrutura\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 21, Array)
+#1 C:\wamp64\www\urgtec\system\View\View.php(210): include('C:\\wamp64\\www\\u...')
+#2 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('estrutura/heade...', Array, true)
+#4 C:\wamp64\www\urgtec\app\Views\urgtec.php(1): view('estrutura/heade...')
+#5 C:\wamp64\www\urgtec\system\View\View.php(210): include('C:\\wamp64\\www\\u...')
+#6 C:\wamp64\www\urgtec\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\urgtec\system\Common.php(1089): CodeIgniter\View\View->render('urgtec', Array, true)
+#8 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(82): view('urgtec', Array)
+#9 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->departamento()
+#10 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#11 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-03 09:03:50 --> Undefined variable: _SESSION
+#0 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 81, Array)
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->departamento()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 09:05:42 --> Undefined variable: Departamento
+#0 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 82, Array)
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->departamento()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 09:08:32 --> Undefined variable: aaa
+#0 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\u...', 75, Array)
+#1 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->departamento()
+#2 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#3 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

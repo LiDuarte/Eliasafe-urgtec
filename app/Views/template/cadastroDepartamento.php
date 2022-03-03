@@ -1,5 +1,14 @@
       <a href="<?= base_url("funcionarios"); ?>"> Gerenciar Funcionários</a>
-        <strong><?php echo $msg; ?></strong>
+       <div class="col-12">
+          <h4 class="text-<?php echo isset(session()->alert) ? session()->alert : null;  ?> text-center"><strong><?php echo isset(session()->msg) ? session()->msg : null ?></strong></h4>
+        </div>
+        <?php if(isset(session()->erros)): ?>
+          <ul class="text-danger">
+            <?php foreach (session()->erros as $erro): ?>
+              <li> <?php echo $erro; ?> </li>
+            <?php endforeach; ?>
+          </ul>
+        <?php endif; ?>
         <form action="<?= base_url("index.php/Urgtec/departamento"); ?>" method="post">
         <div class="mb-3">
           <label for="nome_departamento" class="form-label">Informe o nome do Departamento</label>
