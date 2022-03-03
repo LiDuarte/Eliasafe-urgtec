@@ -1,4 +1,4 @@
-
+      <a href="<?= base_url("funcionarios"); ?>"> Gerenciar Funcionários</a>
         <strong><?php echo $msg; ?></strong>
         <form action="<?= base_url("index.php/Urgtec/departamento"); ?>" method="post">
         <div class="mb-3">

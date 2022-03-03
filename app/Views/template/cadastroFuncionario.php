@@ -1,4 +1,4 @@
-        <a href="<?= base_url("index.php/Urgtec/departamento"); ?>"> Gerenciar Departamento</a>
+        <a href="<?= base_url("departamento"); ?>"> Gerenciar Departamento</a>
         <strong><?php echo $msg; ?></strong>
         <form action="<?= base_url("index.php/Urgtec"); ?>" method="post">
         <label for="exampleFormControlInput1"  class="form-label">Nome</label>

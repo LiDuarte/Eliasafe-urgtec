@@ -1,0 +1,13 @@
+ERROR - 2022-03-03 05:23:37 --> Error connecting to the database: Unknown database 'urgtec'
+CRITICAL - 2022-03-03 05:23:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'urgtec'
+#0 C:\wamp64\www\urgtec\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\urgtec\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\urgtec\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\urgtec\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\wamp64\www\urgtec\app\Controllers\Urgtec.php(12): CodeIgniter\BaseModel->find()
+#5 C:\wamp64\www\urgtec\system\CodeIgniter.php(832): App\Controllers\Urgtec->index()
+#6 C:\wamp64\www\urgtec\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Urgtec))
+#7 C:\wamp64\www\urgtec\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\urgtec\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
