@@ -32,6 +32,12 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Urgtec::index');
+// criando rotas
+$routes->add("cadastro", "Urgtec::cadastro"); //localhost/urgtec/public/urgtec/index.php/cadastro
+
+// criando rotas com parametros
+// $routes->add("produtos/(:num)/(:any)", 'controller::method/$1');
+
 
 /*
  * --------------------------------------------------------------------
